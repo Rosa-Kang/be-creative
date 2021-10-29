@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------
+# Buttons
+--------------------------------------------------------------*/
+
+// Menu Buttons -----------------------------
+.desktop-menu-btn {
+  a,
+  a:visited {
+    background: $color__success-dark;
+    color: $color__light !important;
+    width: 130px;
+    height: 33px;
+    @include col-cen();
+    border-radius: 3px;
+    box-shadow: $box-shadow--btn;
+  }
+
+  a:hover {
+    background: $color__success;
+  }
+}
